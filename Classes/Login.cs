@@ -100,7 +100,6 @@ namespace AulaPOO_ProjetoDeProdutos.Classes
                         Console.ForegroundColor = ConsoleColor.Red;
                         Console.WriteLine("Numero de tentativas excedido");
                         Console.ResetColor();
-                        Environment.Exit(0);
                     }
                 }
             }while(tentativas < 3);
